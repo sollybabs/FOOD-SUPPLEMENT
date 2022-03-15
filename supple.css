@@ -1,0 +1,70 @@
+.bg      {
+    background: url('https://s3.amazonaws.com/assets.soundconcepts.com/webroot_neolife/img/link/11-Feb-IG-1da2ff2e.jpg')
+    no repeat center center/cover ;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(30);
+}
+
+.loading-test {
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+.w3-content {
+    display: flex;
+    justify-content: center;
+    height: 80vh; 
+}
+
+
+
+.w3-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#contact {
+    font-size: large;
+    font-weight: bolder;
+    background-color: #45a049;
+}
+
+#about {
+    font: 100;
+    font-weight: bold;
+    background-color: #ccc;
+
+}
+
+input[type=text] ,select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input [type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor :pointer ;
+}
+
+input[ type=submit]:hover {
+    background-color: #45a049;
+    
+}

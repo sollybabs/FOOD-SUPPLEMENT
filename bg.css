@@ -1,0 +1,16 @@
+.bg      {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6509Xrnys2Pp_8RB3ffNOsqDrKlPtkvkRQ&usqp=CAU')
+    no repeat center center/cover ;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0);
+}
+
+.loading-test {
+    font-size: 50px;
+    color: #4CAF50;
+}
